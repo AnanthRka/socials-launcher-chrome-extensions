@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Ez Launcher",
+  "description": "Quick Access to any website of your interest",
+  "version": "1.0.0",
+  "icons": {"128": "icon 128.png"},
+    "browser_action": {
+      "default_icon": "icon 16.png",
+      "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+  "<all_urls>"]
+}
